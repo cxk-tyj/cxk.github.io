@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 4</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Quartz 4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ hello. ]]></description>
+    <pubDate>Fri, 12 Dec 2025 03:37:54 GMT</pubDate>
+  </item><item>
+    <title>Git</title>
+    <link>https://quartz.jzhao.xyz/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Git</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Git</guid>
+    <description><![CDATA[ 一.安装Git - 下载 - Git 版本控制系统 二.配置 配置用户名 git config --global user.name &quot;your.name&quot; 配置用户邮箱 git config --global user.email &quot;email@wxample.com&quot; 三.创建本地仓库 在任意一个路径下新建一个文件夹——&gt;cd file——&gt;打开git bash执行 git init 四.工作流程 五.常用指令 1.工作区→暂存区 git add . ]]></description>
+    <pubDate>Fri, 12 Dec 2025 03:37:54 GMT</pubDate>
+  </item><item>
+    <title>Ros 2 Humble环境配置</title>
+    <link>https://quartz.jzhao.xyz/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Ros-2/Ros-2-Humble%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Ros-2/Ros-2-Humble%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE</guid>
+    <description><![CDATA[ 安装教程 教程中使用的国外源下载，可更换为国内源加快下载速度 Ubuntu （deb packages） — ROS 2 文档：Humble 文档 使用步骤 1.创建工作空间 创建一个自命名文件夹/文件夹/src mkdir -p Learn_ROS2/L01_helloworld/src 进入工作空间 cd Learn_ROS2/L01_helloworld 编译 colcon build 编译结果 会生成三个文件夹 build：存储编译文件的目录，该目录会为每个功能包创建一个单独的子目录。 install：安装目录，存储已经编译的功能包生成的可执行文件。 log：日志目录，存储日志文件。 ... ]]></description>
+    <pubDate>Fri, 12 Dec 2025 03:37:54 GMT</pubDate>
+  </item><item>
+    <title>环境变量</title>
+    <link>https://quartz.jzhao.xyz/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Ros-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Ros-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F</guid>
+    <description><![CDATA[ 功能包创建后， 功能包和生成的可执行文件（节点）的环境变量为: AMENT_PREFIX_PATH 位置在AMENT_PREFIX_PATH/lib/. ]]></description>
+    <pubDate>Fri, 12 Dec 2025 03:37:54 GMT</pubDate>
+  </item><item>
+    <title>linux基础</title>
+    <link>https://quartz.jzhao.xyz/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/linux%E5%9F%BA%E7%A1%80</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/linux%E5%9F%BA%E7%A1%80</guid>
+    <description><![CDATA[ 环境配置 VMware安装 官网地址 Fusion 和工作站 |VMware的 Ubuntu镜像安装 清华镜像源安装 Index of /ubuntu-releases/22.04/ | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror. ]]></description>
+    <pubDate>Fri, 12 Dec 2025 03:37:54 GMT</pubDate>
+  </item><item>
+    <title>智驾流程</title>
+    <link>https://quartz.jzhao.xyz/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/pix/%E6%99%BA%E9%A9%BE%E6%B5%81%E7%A8%8B</link>
+    <guid>https://quartz.jzhao.xyz/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/pix/%E6%99%BA%E9%A9%BE%E6%B5%81%E7%A8%8B</guid>
+    <description><![CDATA[ 1.绘制矢量地图 2.上传地图及配置文件到 ~/pix/map/ 3.创建软连接 ln -s 地图文件名 main 4.创建站点文件 cd ~/pix/scripts/tools/get_station_list ./get_station_list.py ./run.sh 5.同步地图 pixmoving_sync_map 6.启动rviz. ]]></description>
+    <pubDate>Fri, 12 Dec 2025 03:37:54 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
